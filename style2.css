@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Estilos para el encabezado */
+#primer-título {
+    font-style: italic;
+    margin-top: 0;
+    color: #555;
+}
+
+#segundo_título {
+    color: #777;
+    text-align: right;
+    padding-right: 20px;
+}
+
+/* Estilos para el menú principal */
+select {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    margin: 5px;
+}
+
+select option {
+    padding: 5px;
+}
+
+/* Estilos para el contenido principal */
+h1 {
+    color: #0066cc;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h3 {
+    color: #444;
+    margin: 15px 0;
+}
+
+p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Estilos para las secciones */
+td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #ccc;
+}
+
+/* Estilos específicos para la imagen de referencia */
+#primer-imagen, #segunda-imagen {
+    font-size: 12px;
+    color: #777;
+    margin: 5px 0;
+}
+
+/* Estilos para los proyectos */
+table[width="100%"] tr td:first-child {
+    width: 70%;
+}
+
+table[width="100%"] tr td:last-child {
+    width: 30%;
+    text-align: center;
+}
+
+/* Estilos para los créditos */
+table[center] {
+    text-align: center;
+    margin: 20px auto;
+}
+
+table[center] td {
+    padding: 15px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header table tr td {
+        display: block;
+        text-align: center;
+    }
+    
+    #segundo_título {
+        text-align: center;
+        padding-right: 0;
+    }
+    
+    table[width="100%"] tr td {
+        display: block;
+        width: 100% !important;
+    }
+}
